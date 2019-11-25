@@ -1,0 +1,142 @@
+/**
+
+   __ __  //|          __     ____  ______      _   __  _  __
+  / //_/ |/||  ___    / /    /  _/ /_  __/     | | / / / |/ /
+ / ,<   / -_) / _ \  / _ \  _/ /    / /   _    | |/ / /    / 
+/_/|_|  \__/ /_//_/ /_//_/ /___/   /_/   (_)   |___/ /_/|_/  
+                                                             
+Trang tổng hợp, chia sẻ code hay
+url: http://kênhit.vn (Tên miền có dấu Tiếng Việt)
+*/
+body{
+background: #317E96;
+}
+
+article#cloud{
+	background: url(../images/cloud.png) repeat-x;
+	height: 100%;
+	z-index: 2;
+}
+article#cloud>p{
+    font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	padding-top: 60px;
+	z-index: 3;
+	text-shadow:-2px 3px 12px #000000;
+	text-align:center
+}
+
+section#birds-1{
+	background:url(../images/birds-1.png) no-repeat;
+	width: 194px;
+	height: 156px;
+	position: absolute;
+	cursor: pointer;
+}
+section#birds-1 p,
+section#birds-3 p{
+	padding: 3px 5px;
+	font-size: 16px;
+	border-radius: 3px;
+	background: #fff;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+section#birds-1:hover p,
+section#birds-3:hover p{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+section#birds-2{
+	background:url(../images/birds-2.png) no-repeat;
+	width: 97px;
+	height: 78px;
+	margin-left: 400px;
+	position: absolute;
+}
+
+section#birds-3{
+	background:url(../images/birds-3.png) no-repeat;
+	width: 276px;
+	height: 221px;
+	margin-left: 250px;
+	margin-top: 20%;
+	position: absolute;
+	cursor: pointer;
+}
+
+article#content{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: auto;
+	top: 60%;
+	color: #6abdc5;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+article#content h1{
+	font-size: 100px;
+	margin-right: 50px;
+	text-shadow:2px 2px 0 #FFF;
+}
+
+article#content h2{
+	font-size: 40px;
+	font-weight: normal;
+	margin-right: 50px;
+	text-shadow:1px 1px 0 #FFF;
+}
+article#content h3 a{
+	color: #6abdc5;
+	font-size: 15px;
+	text-transform: none;
+	text-shadow:1px 1px 0 #FFF;
+	margin-right: 50px;
+	text-decoration: none;
+}
+footer{
+	background: url(../images/city.png) repeat-x top;
+	width: 100%;
+	height: 535px;
+	position: absolute;
+	bottom: 0px;
+	overflow: hidden;
+	z-index: 1;
+}
+#duong{
+background: #342a2a;
+height: 206px;
+width: 100%;
+position: absolute;
+bottom:0px;
+z-index: 3;
+}
+#duong p{
+font-family: 'Open Sans', sans-serif;
+padding:20px;
+text-align:right;
+color:#fff;
+line-height:20px;
+}
+#dapxe{
+z-index: 4;
+position: absolute;
+bottom:-0px;
+margin:0 auto;
+width: 1300px;
+}
