@@ -13,3 +13,27 @@ a {color:#000;font-size:14px;}
 .hand{cursor:pointer;}
 .say{margin-left:5px;}
 .space{margin-right:150px;}
+
+ 
+.img1 {
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:100%;
+    width: 300px;
+    height: auto;
+}
+ 
+.img1 {
+    border-radius:15%;
+    -moz-border-radius:15%;
+    -webkit-border-radius:100%;
+}
+.texta{
+	font-family: 'Dancing Script', cursive;
+    font-size: 34px;
+    font-weight: bold;
+}
+.imgtim{
+	width: 150px;
+}
